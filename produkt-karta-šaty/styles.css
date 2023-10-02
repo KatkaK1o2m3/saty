@@ -1,0 +1,93 @@
+body {
+  font-family: "Raleway", Arial, sans-serif;
+}
+:root {
+  --poduct-black: #000;
+  --product-white: #fff;
+}
+.product-card {
+  border: 1px solid black;
+  position: relative;
+  width: 450px;
+  padding: 8px;
+}
+.claim-badge {
+  background-color: rgb(222, 137, 212);
+  color: lavender;
+  left: 0px;
+  position: absolute;
+  padding: 6px;
+  border-radius: 0 5px 5px 0;
+}
+.discount-badge {
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 12px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.product-image-container {
+  height: 400px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product-title {
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.product-description {
+  font-size: 24px;
+}
+.product-more-info {
+  text-decoration: underline;
+  color: gray;
+  font-style: italic;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
+.product-more-info:hover {
+  color: aqua;
+}
+.product-price {
+  color: lightgray;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.product-discount-price {
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+}
+.add-button-container {
+  background-color: rgb(44, 176, 44);
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px;
+}
+.button {
+  font-size: 24px;
+}
+.add-button-container:hover {
+  background-color: yellowgreen;
+  color: green;
+}
+.product-details-container {
+  margin-top: 5px;
+  width: 100%;
+  background-color: lavender;
+}
+.product-details-container:hover {
+  color: rgb(222, 137, 212);
+}
